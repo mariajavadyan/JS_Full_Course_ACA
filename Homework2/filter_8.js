@@ -1,4 +1,3 @@
-//8. Write a function which remove users with language equals to 'ru'.
 const users = [
   {
     username: "Yuri Gagarin",

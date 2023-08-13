@@ -1,7 +1,3 @@
-//Implement flat() method
-// The flat() method of Array instances creates a new array with all sub-array elements
-// concatenated into it recursively up to the specified depth.
-
 function myFlat(arr, depth) {
   if (depth < 1) {
     return arr;
@@ -29,4 +25,3 @@ function myFlat(arr, depth) {
 }
 
 console.log(myFlat([1, [2, [3, 4], 5], 6], 2));
-//console.log(myFlat([1, [2, [[3, 4], 7, 16], 5], 6], 4));

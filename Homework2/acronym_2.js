@@ -1,8 +1,3 @@
-//Convert a long phrase to its acronym
-//Output
-//'Prisoner of Warʼ ‘POWʼ
-//'Have a good nightʼ ‘HAGNʼ
-
 function acronym(str) {
   let arr = str.split(" ");
   let newStr = "";

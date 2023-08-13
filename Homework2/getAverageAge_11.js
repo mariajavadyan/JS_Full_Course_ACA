@@ -1,5 +1,3 @@
-//11. Write a function which calculates average age of users
-
 const users = [
   {
     username: "Yuri Gagarin",

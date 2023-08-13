@@ -1,5 +1,3 @@
-//1.Write a function which returns array of usernames.
-
 const users = [
   {
     username: "Yuri Gagarin",
@@ -11,11 +9,15 @@ const users = [
   },
 ];
 
-function getUserNames(users) {
+function getUsernameLengths(users) {
   let newArr = [];
+  let secondArr = [];
 
   users.forEach((obj) => newArr.push(obj.username));
-  return newArr;
+
+  newArr.forEach((el) => secondArr.push(el.length));
+
+  return secondArr;
 }
 
-console.log(getUserNames(users));
+console.log(getUsernameLengths(users));

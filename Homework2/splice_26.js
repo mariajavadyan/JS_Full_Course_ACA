@@ -1,7 +1,3 @@
-//Implement splice() method, return value An array containing the deleted elements
-// The splice() method of Array instances changes the contents of an array by
-// removing or replacing existing elements and/or adding new elements in place.
-
 function mySplice(arr, start, deleteCount, ...items) {
   const removed = [];
 
