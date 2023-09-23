@@ -40,7 +40,7 @@ class Account {
   }
 
   static identifyAccounts(name1, name2) {
-    return [name1.id === name2.id];
+    return name1.id === name2.id;
   }
 }
 
